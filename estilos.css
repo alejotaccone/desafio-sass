@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Akshar", sans-serif;
+}
+
+header {
+  background: -webkit-gradient(linear, left top, right top, from(#245eaa), to(#113c73));
+  background: linear-gradient(to right, #245eaa, #113c73);
+  padding: 0rem 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar {
+  background-color: transparent !important;
+}
+
+.navbar li {
+  padding-left: 1rem;
+  font-size: 1.1rem;
+}
+
+.navbar img {
+  border-radius: 50px;
+  height: 130px;
+}
+
+#intro {
+  background-image: url(img/bariloche22.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 80vh;
+}
+
+.icon {
+  height: 60px;
+}
+
+#actividades {
+  background-image: url(img/actividades.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 80vh;
+}
+
+#hospedaje {
+  background-image: url(img/hospedaje.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 80vh;
+}
+
+.prueba {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+.prueba button {
+  background-color: aliceblue;
+  border: 0em;
+}
+
+.prueba p {
+  color: #ffffff;
+  font-size: 2.7rem;
+}
+
+.prueba a {
+  text-decoration: none;
+  font-size: 2.2rem;
+  padding: 0 15px;
+}
+/*# sourceMappingURL=estilos.css.map */
